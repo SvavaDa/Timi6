@@ -63,6 +63,8 @@ header {
 .box_container_2 {
   background-color: rgb(146, 99, 99);
   padding: 20px;
+  min-height: 400px;
   display: flex;
   flex-wrap: wrap;
+  align-content: stretch;
 }
