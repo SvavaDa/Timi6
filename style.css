@@ -1,0 +1,68 @@
+/* Header CSS */
+.header_div {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_div_2 {
+  background-color: blueviolet;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header_div_2 p {
+  margin: 0%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+}
+/*  */
+.p_2 {
+  display: flex;
+  align-self: flex-start;
+  width: 50%;
+}
+.box_container {
+  background-color: rgb(167, 100, 19);
+  display: flex;
+  flex-direction: row;
+  /* Sniðugt þegar eru opnað á símum */
+  flex-wrap: wrap;
+  /* justify content er bara þegar er röð, align items er fyrir dálk  */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(104, 104, 141);
+  width: 50px;
+  margin: 10px;
+  /* margin er bilið milli kassa */
+}
+
+.box1 {
+  background-color: yellow;
+}
+
+.box2 {
+  background-color: rgb(26, 170, 98);
+}
+.box3 {
+  background-color: rgb(98, 12, 211);
+}
+
+/* seinni boxin */
+
+.box_container_2 {
+  background-color: rgb(146, 99, 99);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
